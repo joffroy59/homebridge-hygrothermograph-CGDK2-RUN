@@ -75,7 +75,7 @@ Update your Homebridge `config.json` file. See [config-sample.json](config-sampl
 | `disableBatteryLevel`   | `false`         | If battery level should not be exposed to Homekit. New E-Ink sensors do currently not support sending battery levels and setting this to `true` will make Elgato Eve not warn about it.                     |
 | `temperatureOffset`     | `0`             | An offset to apply to temperature values for calibration if measured values are incorrect.                                                                                                                  |
 | `humidityOffset`        | `0`             | An offset to apply to humidity values for calibration if measured values are incorrect.                                                                                                                     |
-
+| `hightTemperature`      | `6`             | At what temperature degrees Homekit should start warning about hight temperature.                                                                                                                           |
 
 ### Multiple sensors
 When running just one HygrothermographCgdk2 accessory there is no need to specify the address of the BLE device.

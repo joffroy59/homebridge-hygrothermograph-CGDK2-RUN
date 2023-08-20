@@ -90,6 +90,12 @@
         "type": "integer",
         "default": 0,
         "description": "An offset to apply to humidity values for calibration if measured values are incorrect."
+      },
+      "hightTemperature": {
+        "title": "Higth Temperature Threshold",
+        "type": "integer",
+        "default": 6,
+        "description": "At what temperature degrees Homekit should start warning about hight temperature."
       }
     }
   },
@@ -127,7 +133,8 @@
         "disableBatteryLevel",
         "lowBattery",
         "temperatureOffset",
-        "humidityOffset"
+        "humidityOffset",
+        "hightTemperature"
       ]
     }
   ]
