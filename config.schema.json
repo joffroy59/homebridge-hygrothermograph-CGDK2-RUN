@@ -91,6 +91,12 @@
         "default": 0,
         "description": "An offset to apply to humidity values for calibration if measured values are incorrect."
       },
+      "alarmTemperatureEnabled": {
+        "title": "Enable Temperature Alarm",
+        "type": "boolean",
+        "default": false,
+        "description": "Enable Temperature Control Alarm."
+      },
       "hightTemperature": {
         "title": "Higth Temperature Threshold",
         "type": "integer",
@@ -134,6 +140,7 @@
         "lowBattery",
         "temperatureOffset",
         "humidityOffset",
+        "alarmTemperatureEnabled",
         "hightTemperature"
       ]
     }
